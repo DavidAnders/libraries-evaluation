@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="javaml-0.1.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/Bachelor/javaml-0.1.7/javaml-0.1.7/javaml-0.1.7.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="jar://$USER_HOME$/Documents/Bachelor/javaml-0.1.7/javaml-0.1.7/lib/commons-math-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Bachelor/javaml-0.1.7/javaml-0.1.7/lib/Jama-1.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Bachelor/javaml-0.1.7/javaml-0.1.7/lib/ajt-2.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
