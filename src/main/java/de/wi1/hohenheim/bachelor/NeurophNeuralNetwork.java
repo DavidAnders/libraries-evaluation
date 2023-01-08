@@ -24,9 +24,9 @@ public class NeurophNeuralNetwork implements LearningEventListener {
   private static final Logger log = LoggerFactory.getLogger(NeurophNeuralNetwork.class);
 
   public static void main(String[] args) {
-    // for 2016
+    // for 2016 (needs manual changes)
     String inputFile2016 = "C:\\Users\\test\\git\\Bachelor\\libraries-evaluation\\src\\main\\resources\\negoisst2016Neuroph.csv";
-    // for 2017
+    // for 2017 (needs manual changes)
     String inputFile2017 = "C:\\Users\\test\\git\\Bachelor\\libraries-evaluation\\src\\main\\resources\\negoisst2017Neuroph.csv";
 
     (new NeurophNeuralNetwork()).initialize(inputFile2016, ";", 6, 45);

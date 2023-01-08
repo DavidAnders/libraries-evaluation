@@ -11,17 +11,16 @@ import net.sf.javaml.tools.data.FileHandler;
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
-import java.util.Random;
 
 public class JavaMLClassifcation {
   public static void main(String[] args) throws IOException {
-    // Training Data 2016
+    // Training Data 2016 (needs manual changes)
     String trainingData2016 = "C:\\Users\\test\\git\\Bachelor\\libraries-evaluation\\src\\main\\resources\\negoisst2016JavaML_Training.csv";
-    // Test Data 2016
+    // Test Data 2016 (needs manual changes)
     String testData2016 = "C:\\Users\\test\\git\\Bachelor\\libraries-evaluation\\src\\main\\resources\\negoisst2016JavaML_Test.csv";
-    // Training Data 2017
+    // Training Data 2017 (needs manual changes)
     String trainingData2017 = "C:\\Users\\test\\git\\Bachelor\\libraries-evaluation\\src\\main\\resources\\negoisst2017JavaML_Training.csv";
-    // Test Data 2017
+    // Test Data 2017 (needs manual changes)
     String testData2017 = "C:\\Users\\test\\git\\Bachelor\\libraries-evaluation\\src\\main\\resources\\negoisst2017JavaML_Test.csv";
 
     (new JavaMLClassifcation()).initialize(trainingData2016, testData2016, ";", 45, 6);
